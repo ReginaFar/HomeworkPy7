@@ -10,6 +10,7 @@
 class Stationery():
     title = "Канцелярская принадлежность"
 
+
     def draw(self):
         print("Запуск отрисовки")
 

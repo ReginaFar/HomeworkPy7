@@ -17,20 +17,25 @@ class Car():
         self.name = name
         self.is_police = is_police
 
+
     def go(self):
         if self.speed > 0:
             print(f"{self.color} {self.name} начала движение")
+
 
     def stop(self):
         if self.speed == 0:
             print(f"{self.color} {self.name} остановилась")
 
+
     def turn(self, direction):
         if self.speed > 0:
             print(f"{self.color} {self.name} повернула {direction}")
 
+
     def show_speed(self):
         print(f"Текущая скорость автомобиля = {self.speed} км/ч")
+
 
     def police(self):
         if self.is_police:

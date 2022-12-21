@@ -17,6 +17,7 @@ class TrafficLight():
     def __init__(self, color):
         self.__color = color
 
+
     def running(self, color):
         if color == 'red':
             print(color)
